@@ -1,0 +1,79 @@
+body, html {
+    height: 100%;
+    margin: 2%; /* Ensure no margin around the body */
+}
+
+.black-rounded-div {
+    width: 99%;
+    height: 97%;
+    background-color: black;
+    border-radius: 30px; /* Adjust this value for more or less rounding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative; /* Make this div a positioning context */
+}
+
+.round-boi {
+    width: 40%;
+    height: 25%;
+    background-color: white;
+    border-radius: 30px; /* Adjust this value for more or less rounding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: absolute; /* Position this element relative to the black div */
+    bottom: 0; /* Align to the bottom */
+    left: 0; /* Align to the left */
+    margin: 0px; /* Optional margin to add space from the edges */
+}
+.center-text {
+    text-align: center;
+    font: helvetica;
+}
+.container {
+    display: flex;
+    height: 100vh; /* Full height for demonstration */
+}
+
+.column {
+    flex: 1; /* Each column takes equal space */
+    padding: 10%; /* Optional padding */
+}
+
+.left {
+    background-color: white; /* Light gray background for left column */
+}
+
+.right {
+    background-color: white; /* Slightly darker gray for right column */
+}
+
+.gray-rounded-div {
+    width: 60%;
+    height: 10%;
+    background-color: gray;
+    border-radius: 20px; /* Adjust this value for more or less rounding */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative; /* Make this div a positioning context */
+}
+.boton{
+    color: white; /* White text */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Vertical and horizontal padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Allow padding and margin to work */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Optional: rounded corners */
+    transition: background-color 0.3s; /* Smooth background color change on hover */
+}
+.button:hover {
+    background-color: #333; /* Slightly lighter black on hover */
+}
